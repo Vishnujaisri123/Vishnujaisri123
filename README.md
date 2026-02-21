@@ -58,17 +58,9 @@ With expertise in **Python**, **JavaScript**, **React**, **Node.js**, and **Clou
 ## 📫 Connect With Me
 
 📍 **Location:** Vadapalli, Andhra Pradesh, India
-📧 **Email:** [vishnujaisri.dev@gmail.com](mailto:vishnujaisri.dev@gmail.com)
+📧 **Email:** [vishnujaisri.dev@gmail.com](mailto:vishnuketa999@gmail.com)
 🔗 **LinkedIn:** [linkedin.com/in/vishnujaisri](https://www.linkedin.com/in/vishnujaisri)
 🐦 **Twitter:** [@Vishnujaisri123](https://twitter.com/Vishnujaisri123)
-
----
-
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vishnujaisri123&show_icons=true&theme=dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vishnujaisri123&layout=compact&theme=dark)
 
 ---
 
