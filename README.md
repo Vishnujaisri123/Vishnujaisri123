@@ -1,10 +1,10 @@
-# Hi 👋, I'm Vishnu Jaisri
+# Hi 👋, I'm Vishnu Vardhan
 
 [![GitHub Badge](https://img.shields.io/github/followers/Vishnujaisri123?style=social)](https://github.com/Vishnujaisri123) [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishnujaisri) [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/Vishnujaisri123) [![CodeChef Badge](https://img.shields.io/badge/CodeChef-5B4638?logo=codechef&logoColor=white)](https://www.codechef.com/users/vishnujaisri123) [![HackerRank Badge](https://img.shields.io/badge/HackerRank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/vishnujaisri123)
 
 ## 🙋‍♂️ Glad to see you here!
 
-I'm **Vishnu Jaisri**, an aspiring **Full Stack Software Engineer** from **Vadapalli, Andhra Pradesh, India**. I'm passionate about building scalable web applications, exploring **AI & Machine Learning**, and contributing to **Data Analytics** projects.
+I'm **Vishnu Vardhan**, an aspiring **Full Stack Software Engineer** from **Vadapalli, Andhra Pradesh, India**. I'm passionate about building scalable web applications, exploring **AI & Machine Learning**, and contributing to **Data Analytics** projects.
 
 With expertise in **Python**, **JavaScript**, **React**, **Node.js**, and **Cloud Computing (GCP, AWS)**, I'm committed to creating tech solutions that make a real impact. Currently focused on developing a strong portfolio through internship projects and open-source contributions.
 
