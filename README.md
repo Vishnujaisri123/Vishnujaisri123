@@ -22,6 +22,10 @@ With expertise in **Python**, **JavaScript**, **React**, **Node.js**, and **Clou
 
 ## 🛠️ Languages & Tools
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,javascript,html,css,sql,react,nodejs,express,mongodb,docker,git,github,figma,vscode,powerbilm,nlp,ai" alt="Languages and Tools" />
+</p>
+
 **Languages:**
 - Python, JavaScript, HTML, CSS, SQL
 
