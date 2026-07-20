@@ -52,7 +52,7 @@
 <br/><br/>
 
 <!-- GitHub Streak Stats -->
-<img src="https://streak-stats.demolab.com?user=Vishnujaisri123&amp;theme=radical&amp;hide_border=true&amp;background=06111a&amp;ring=00c8ff&amp;fire=00ffcc&amp;currStreakLabel=00ffcc" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com?user=Vishnujaisri123&amp;theme=radical&amp;hide_border=true&amp;background=06111a&amp;ring=00c8ff&amp;fire=00ffcc&amp;currStreakLabel=00c8ff" alt="GitHub Streak"/>
 
 <br/><br/>
 
