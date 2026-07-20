@@ -1,67 +1,92 @@
-# Hi 👋, I'm Vishnu Vardhan
+<div align="center">
 
-[![GitHub Badge](https://img.shields.io/github/followers/Vishnujaisri123?style=social)](https://github.com/Vishnujaisri123) [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishnujaisri) [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/Vishnujaisri123) [![CodeChef Badge](https://img.shields.io/badge/CodeChef-5B4638?logo=codechef&logoColor=white)](https://www.codechef.com/users/vishnujaisri123) [![HackerRank Badge](https://img.shields.io/badge/HackerRank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/vishnujaisri123)
+<!-- ✨ Animated Banner ✨ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
+  <img src="./banner.svg?v=1" alt="Vishnu Vardhan — S-Rank Hunter &amp; Full Stack Software Engineer" width="100%"/>
+</picture>
 
-## 🙋‍♂️ Glad to see you here!
+</div>
 
-I'm **Vishnu Vardhan**, an aspiring **Full Stack Software Engineer** from **Vadapalli, Andhra Pradesh, India**. I'm passionate about building scalable web applications, exploring **AI & Machine Learning**, and contributing to **Data Analytics** projects.
+<br/>
 
-With expertise in **Python**, **JavaScript**, **React**, **Node.js**, and **Cloud Computing (GCP, AWS)**, I'm committed to creating tech solutions that make a real impact. Currently focused on developing a strong portfolio through internship projects and open-source contributions.
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
 
----
+<!-- 🪪 Swinging Lanyard Hunter Card (custom SVG with embedded animated avatar) -->
+<img src="./lanyard.svg?v=1" alt="Vishnu Vardhan S-Rank Hunter Card" width="330"/>
 
-## 🚀 Featured Projects
+</td>
+<td width="62%" valign="middle">
 
-- **[Customer Churn Analysis](https://github.com/Vishnujaisri123/Internship_project)**: ML model using Python to predict telecom customer churn with insights on high-risk segments
-- **[MY-PORTFOLIO](https://github.com/Vishnujaisri123/MY-PORTFOLIO)**: Full-stack web development portfolio showcasing AI, ML, and web development expertise
-- **[Summer Internship Projects](https://github.com/Vishnujaisri123/summer-internship)**: Real-world Python projects demonstrating practical software engineering skills
-- **[3D E-commerce Website](https://github.com/Vishnujaisri123/3D-E-commerce-website)**: Interactive 3D shopping experience using TypeScript and modern web technologies
-- **[Jinwoo System](https://github.com/Vishnujaisri123/Jinwoo-system)**: Dynamic system model with CSS and adaptive functionality
+### ⚔️ My Hunter Quests &amp; Projects
 
----
+| 🎌 Project | 💻 Tech | ⭐ |
+|:---|:---:|:---:|
+| [⚔️ Jinwoo Quest System](https://github.com/Vishnujaisri123/Jinwoo-system) | `React` `Flask` `MongoDB` | 10 |
+| [🛒 3D E-commerce Website](https://github.com/Vishnujaisri123/3D-E-commerce-website) | `TypeScript` `Three.js` | 8 |
+| [📊 Customer Churn Analysis](https://github.com/Vishnujaisri123/Internship_project) | `Python` `Machine Learning` | 5 |
+| [💼 Personal Portfolio](https://github.com/Vishnujaisri123/MY-PORTFOLIO) | `HTML` `CSS` `JS` | 6 |
+| [🐍 Summer Internship Projects](https://github.com/Vishnujaisri123/summer-internship) | `Python` `Data Science` | 4 |
 
-## 🛠️ Languages & Tools
+<br/>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,html,css,sql,react,nodejs,express,mongodb,docker,git,github,figma,vscode,powerbilm,nlp,ai" alt="Languages and Tools" />
-</p>
+> ⚔️ *"The only way to level up is to keep fighting, and push past your limits."*
 
-**Languages:**
-- Python, JavaScript, HTML, CSS, SQL
+</td>
+</tr>
+</table>
 
-**Frontend & Backend:**
-- React, Node.js, Express.js, MongoDB
+<br/>
 
-**Data & AI:**
-- Data Analytics, Machine Learning, Data Visualization (Power BI, Tableau)
-- NLP, LLMs, AI Integration
+<div align="center">
 
-**Cloud & DevOps:**
-- Google Cloud Platform (GCP), AWS, Docker
+### 📊 GitHub Stats &amp; Graphs
 
-**Tools & Platforms:**
-- GitHub, Figma, Git, VS Code, Jupyter Notebook
-- CodeChef, HackerRank
+<!-- GitHub Stats using dark Tokyo Night cyber theme -->
+<img src="https://github-readme-stats.vercel.app/api?username=Vishnujaisri123&amp;show_icons=true&amp;theme=tokyonight&amp;bg_color=06111a&amp;title_color=00e5ff&amp;icon_color=00ffcc&amp;text_color=ffffff&amp;border_color=00c8ff" alt="GitHub Stats" height="195"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishnujaisri123&amp;layout=compact&amp;theme=tokyonight&amp;bg_color=06111a&amp;title_color=00e5ff&amp;text_color=ffffff&amp;border_color=00c8ff" alt="Top Languages" height="195"/>
 
----
+<br/><br/>
 
-## 📊 What I'm Currently Doing
+<!-- GitHub Streak Stats -->
+<img src="https://streak-stats.demolab.com?user=Vishnujaisri123&amp;theme=radical&amp;hide_border=true&amp;background=06111a&amp;ring=00c8ff&amp;fire=00ffcc&amp;currStreakLabel=00c8ff" alt="GitHub Streak"/>
 
-- 🔭 Building full-stack web applications with React & Node.js
-- 🌱 Learning advanced cloud computing and DevOps practices
-- 💼 Contributing to open-source projects
-- 📖 Researching AI & Data Analytics applications
-- 🤝 Open to collaborations and internship opportunities
+<br/><br/>
 
----
+<!-- Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishnujaisri123&amp;bg_color=06111a&amp;color=00c8ff&amp;line=0055ff&amp;point=00ffcc&amp;area=true&amp;area_color=0055ff&amp;hide_border=true&amp;custom_title=Contribution%20Graph%20⚔️" alt="Contribution graph" width="95%"/>
 
-## 📫 Connect With Me
+<br/><br/>
 
-📍 **Location:** Vadapalli, Andhra Pradesh, India
-📧 **Email:** [vishnujaisri.dev@gmail.com](mailto:vishnuketa999@gmail.com)
-🔗 **LinkedIn:** [linkedin.com/in/vishnujaisri](https://www.linkedin.com/in/vishnujaisri)
-🐦 **Twitter:** [@Vishnujaisri123](https://twitter.com/Vishnujaisri123)
+<!-- Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=Vishnujaisri123&amp;theme=tokyonight&amp;no-bg=true&amp;no-frame=true" alt="Trophies" width="95%"/>
 
----
+<br/><br/>
 
-**Let's build something amazing together! 🚀**
+### 🐍 Watch the snake eat my contributions
+
+<!-- Snake contribution graph -->
+<img src="https://raw.githubusercontent.com/Vishnujaisri123/Vishnujaisri123/output/github-snake-pink.svg" alt="Contribution snake"/>
+
+<br/><br/>
+
+### 📫 Let's Connect
+
+<a href="mailto:vishnujaisri.dev@gmail.com"><img src="https://img.shields.io/badge/Email-00c8ff?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"/></a>
+<a href="https://github.com/Vishnujaisri123"><img src="https://img.shields.io/badge/GitHub-0055ff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/vishnujaisri"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"/></a>
+<a href="https://twitter.com/Vishnujaisri123"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white" alt="Twitter"/></a>
+
+<br/><br/>
+
+<!-- Profile Views Badge -->
+<img src="https://komarev.com/ghpvc/?username=Vishnujaisri123&amp;color=00c8ff&amp;style=for-the-badge&amp;label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/><br/>
+
+*⭐️ Always learning, always building.* ⚔️
+
+</div>

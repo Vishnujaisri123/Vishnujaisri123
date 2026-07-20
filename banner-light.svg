@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%" role="img" aria-label="Vishnu Vardhan banner light">
+<defs>
+<style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&amp;family=Rajdhani:wght@600;700&amp;display=swap');
+  .title {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    fill: #0d1b2a;
+    letter-spacing: 6px;
+    text-anchor: middle;
+  }
+  .subtitle {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    fill: #0088cc;
+    letter-spacing: 4px;
+    text-anchor: middle;
+    text-transform: uppercase;
+  }
+  .tagline {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    fill: #546a7b;
+    letter-spacing: 2px;
+    text-anchor: middle;
+  }
+  .border-glow {
+    stroke: #0088cc;
+    stroke-width: 1.5;
+    fill: none;
+  }
+  .grid-line {
+    stroke: rgba(0, 136, 204, 0.04);
+    stroke-width: 1;
+  }
+</style>
+</defs>
+
+<!-- Light Cyber Background -->
+<rect width="100%" height="100%" fill="#f4f7f6"/>
+
+<!-- Grid -->
+<g>
+  <path d="M0,30 L1000,30 M0,60 L1000,60 M0,90 L1000,90 M0,120 L1000,120 M0,150 L1000,150 M0,180 L1000,180 M0,210 L1000,210 M0,240 L1000,240 M0,270 L1000,270" class="grid-line"/>
+  <path d="M100,0 L100,300 M200,0 L200,300 M300,0 L300,300 M400,0 L400,300 M500,0 L500,300 M600,0 L600,300 M700,0 L700,300 M800,0 L800,300 M900,0 L900,300" class="grid-line"/>
+</g>
+
+<!-- Technical Accent Lines -->
+<line x1="30" y1="30" x2="970" y2="30" class="border-glow" opacity="0.4"/>
+<line x1="30" y1="270" x2="970" y2="270" class="border-glow" opacity="0.4"/>
+<rect x="25" y="25" width="950" height="250" fill="none" stroke="rgba(0, 136, 204, 0.08)" stroke-width="1"/>
+
+<!-- Corner Accents -->
+<path d="M 25,45 L 25,25 L 45,25" stroke="#0088cc" stroke-width="3" fill="none"/>
+<path d="M 975,45 L 975,25 L 955,25" stroke="#0088cc" stroke-width="3" fill="none"/>
+<path d="M 25,255 L 25,275 L 45,275" stroke="#0088cc" stroke-width="3" fill="none"/>
+<path d="M 975,255 L 975,275 L 955,275" stroke="#0088cc" stroke-width="3" fill="none"/>
+
+<!-- Texts -->
+<text x="500" y="135" class="title">VISHNU VARDHAN</text>
+<text x="500" y="180" class="subtitle">S-Rank Hunter &amp; Full Stack Software Engineer</text>
+<text x="500" y="220" class="tagline">⚔️ BUILDING DYNAMIC AI APPLICATIONS &amp; SYSTEMS ⚔️</text>
+
+</svg>
