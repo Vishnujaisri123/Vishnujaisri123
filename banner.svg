@@ -10,8 +10,6 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
 @keyframes floaty2{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-12px) rotate(6deg)}}
 @keyframes heartbeat{0%,100%{transform:scale(1)}12%{transform:scale(1.25)}24%{transform:scale(1)}36%{transform:scale(1.18)}48%{transform:scale(1)}}
-@keyframes neonFlicker{0%{opacity:0}5%{opacity:.7}7%{opacity:.1}10%{opacity:.9}12%{opacity:.3}16%,100%{opacity:1}}
-@keyframes neonPulse{0%,100%{opacity:.55}50%{opacity:1}}
 @keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
 @keyframes rise{0%{transform:translateY(0);opacity:0}12%{opacity:.55}88%{opacity:.55}100%{transform:translateY(-46px);opacity:0}}
 .ltr{opacity:0;animation:popIn .5s cubic-bezier(.2,.8,.3,1.3) forwards;transform-box:fill-box;transform-origin:center bottom}
@@ -23,32 +21,30 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 .hb{transform-box:fill-box;transform-origin:center;animation:heartbeat 2.2s ease-in-out infinite}
 .fl{animation:floaty 5s ease-in-out infinite}
 .fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
-.neon-on{animation:neonFlicker 2.4s ease 3.2s backwards}
-.np{animation:neonPulse 2.6s ease-in-out infinite}
 .rp{animation:rise linear infinite}
-.sep{stroke:#1a2b3c;stroke-width:1;opacity:.7}
+.sep{stroke:#2a1f3d;stroke-width:1;opacity:.7}
 ]]></style>
 
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#050e14"/><stop offset="55%" stop-color="#091b29"/><stop offset="100%" stop-color="#03080c"/>
+  <stop offset="0%" stop-color="#120b20"/><stop offset="55%" stop-color="#170e28"/><stop offset="100%" stop-color="#0e0918"/>
 </linearGradient>
 <linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%"><animate attributeName="stop-color" values="#00e5ff;#0055ff;#00ffcc;#00e5ff" dur="7s" repeatCount="indefinite"/></stop>
-  <stop offset="55%"><animate attributeName="stop-color" values="#00ffcc;#00a3ff;#00e5ff;#00ffcc" dur="7s" repeatCount="indefinite"/></stop>
-  <stop offset="100%"><animate attributeName="stop-color" values="#0055ff;#00e5ff;#00ffcc;#0055ff" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff7eb6;#c084fc;#8b5cf6;#ff7eb6" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="55%"><animate attributeName="stop-color" values="#e879f9;#a78bfa;#ff7eb6;#e879f9" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#8b5cf6;#ff7eb6;#c084fc;#8b5cf6" dur="7s" repeatCount="indefinite"/></stop>
 </linearGradient>
 <linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#00c8ff" stop-opacity=".35"/>
-  <stop offset="50%" stop-color="#0055ff" stop-opacity=".3"/>
-  <stop offset="100%" stop-color="#00ffcc" stop-opacity=".35"/>
+  <stop offset="0%" stop-color="#ff7eb6" stop-opacity=".35"/>
+  <stop offset="50%" stop-color="#c084fc" stop-opacity=".3"/>
+  <stop offset="100%" stop-color="#8b5cf6" stop-opacity=".35"/>
 </linearGradient>
-<radialGradient id="orbP"><stop offset="0%" stop-color="#00c8ff" stop-opacity=".10"/><stop offset="100%" stop-color="#00c8ff" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbV"><stop offset="0%" stop-color="#0055ff" stop-opacity=".12"/><stop offset="100%" stop-color="#0055ff" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbB"><stop offset="0%" stop-color="#00ffcc" stop-opacity=".07"/><stop offset="100%" stop-color="#00ffcc" stop-opacity="0"/></radialGradient>
-<radialGradient id="girlGlow"><stop offset="0%" stop-color="#00c8ff" stop-opacity=".18"/><stop offset="100%" stop-color="#00c8ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbP"><stop offset="0%" stop-color="#ff7eb6" stop-opacity=".10"/><stop offset="100%" stop-color="#ff7eb6" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbV"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".12"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbB"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".07"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<radialGradient id="girlGlow"><stop offset="0%" stop-color="#c084fc" stop-opacity=".18"/><stop offset="100%" stop-color="#c084fc" stop-opacity="0"/></radialGradient>
 <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="glowBig"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".6" fill="rgba(0,200,255,.10)"/></pattern>
+<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".6" fill="rgba(192,132,252,.10)"/></pattern>
 
 <clipPath id="cPrompt"><rect x="48" y="48" width="0" height="32"><animate attributeName="width" from="0" to="520" dur="1s" begin=".3s" fill="freeze"/></rect></clipPath>
 <clipPath id="cHi"><rect x="48" y="86" width="0" height="42"><animate attributeName="width" from="0" to="200" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
@@ -59,12 +55,6 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <clipPath id="r2"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;350;350;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 <clipPath id="r3"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;350;350;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 <clipPath id="r4"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;350;350;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
-
-<clipPath id="girlReveal"><rect x="670" y="160" width="580" height="0">
-  <animate attributeName="height" from="0" to="560" dur="1.8s" begin=".5s" fill="freeze"/>
-</rect></clipPath>
-<clipPath id="girlBox"><rect x="670" y="160" width="580" height="560"/></clipPath>
-<clipPath id="bannerBox"><rect x="1" y="1" width="1278" height="738" rx="22"/></clipPath>
 </defs>
 
 <!-- ================= BACKGROUND ================= -->
@@ -76,88 +66,88 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <rect x="1" y="1" width="1278" height="738" rx="22" fill="none" stroke="url(#borderg)" stroke-width="1.5"/>
 
 <!-- rising particles -->
-<circle class="rp" cx="140" cy="620" r="1.4" fill="#00c8ff" style="animation-duration:5s"/>
-<circle class="rp" cx="420" cy="700" r="1.1" fill="#0055ff" style="animation-duration:6s;animation-delay:1s"/>
-<circle class="rp" cx="620" cy="660" r="1.3" fill="#00ffcc" style="animation-duration:4.6s;animation-delay:2s"/>
-<circle class="rp" cx="1180" cy="690" r="1.2" fill="#00c8ff" style="animation-duration:5.4s;animation-delay:.6s"/>
-<circle class="rp" cx="1240" cy="360" r="1" fill="#0055ff" style="animation-duration:6.4s;animation-delay:1.6s"/>
-<circle class="rp" cx="70" cy="420" r="1" fill="#00ffcc" style="animation-duration:5.8s;animation-delay:2.4s"/>
+<circle class="rp" cx="140" cy="620" r="1.4" fill="#ff7eb6" style="animation-duration:5s"/>
+<circle class="rp" cx="420" cy="700" r="1.1" fill="#c084fc" style="animation-duration:6s;animation-delay:1s"/>
+<circle class="rp" cx="620" cy="660" r="1.3" fill="#8b5cf6" style="animation-duration:4.6s;animation-delay:2s"/>
+<circle class="rp" cx="1180" cy="690" r="1.2" fill="#ff7eb6" style="animation-duration:5.4s;animation-delay:.6s"/>
+<circle class="rp" cx="1240" cy="360" r="1" fill="#c084fc" style="animation-duration:6.4s;animation-delay:1.6s"/>
+<circle class="rp" cx="70" cy="420" r="1" fill="#e879f9" style="animation-duration:5.8s;animation-delay:2.4s"/>
 
 <!-- sparkles -->
-<g class="tw" style="animation-delay:.4s"><path d="M470 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#00e5ff"/></g>
-<g class="tw" style="animation-delay:1.5s"><path d="M880 120l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#00ffcc"/></g>
-<g class="tw" style="animation-delay:2.6s"><path d="M1245 250l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#0055ff"/></g>
+<g class="tw" style="animation-delay:.4s"><path d="M470 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#f0abfc"/></g>
+<g class="tw" style="animation-delay:1.5s"><path d="M880 120l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#ff7eb6"/></g>
+<g class="tw" style="animation-delay:2.6s"><path d="M1245 250l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#c084fc"/></g>
 
 <!-- ================= LEFT: CONTENT ================= -->
 <!-- Terminal prompt -->
-<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#4ade80" font-weight="bold">vishnu@fullstack-ai-engineer</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat </tspan><tspan fill="#00e5ff">README.md</tspan></text>
+<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#4ade80" font-weight="bold">vishnu@fullstack-ai-engineer</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat </tspan><tspan fill="#e879f9">README.md</tspan></text>
 <rect x="485" y="56" width="8" height="16" fill="#4ade80" opacity="0"><animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" begin="1.35s"/></rect>
 
 <!-- Hi, I'm -->
 <text clip-path="url(#cHi)" x="48" y="114" font-size="24" font-weight="bold" fill="#e6edf3">Hi, I'm 👋</text>
 
-<!-- Name: Vishnu Vardhan (glowing, Pacifico Google font) -->
+<!-- Name: Vishnu Vardhan -->
 <g transform="translate(48,180)">
   <text x="0" y="0" font-family="'Pacifico', cursive" font-size="60" font-weight="bold" fill="url(#nameg)" filter="url(#glow)">Vishnu Vardhan</text>
 </g>
-<!-- Glowing lightning bolt/cyber star next to name -->
+<!-- Heart animation next to name -->
 <g class="hb" style="animation-delay:3s">
-  <path d="M510 145 L525 160 L515 163 L528 180 L510 167 L518 163 Z" fill="#00e5ff" filter="url(#glow)" opacity="0.95"/>
+  <path d="M480 145 c-5-11-21-9-21 4 0 9 12 16 21 22 9-6 21-13 21-22 0-13-16-15-21-4z" fill="#ff7eb6" opacity=".95"/>
 </g>
 
 <!-- Cycling roles -->
-<text clip-path="url(#r1)" x="48" y="225" font-size="17" fill="#00e5ff" filter="url(#glow)">&lt; Full Stack Developer /&gt;</text>
-<text clip-path="url(#r2)" x="48" y="225" font-size="17" fill="#00ffcc" filter="url(#glow)">&lt; AI / ML Engineer /&gt;</text>
-<text clip-path="url(#r3)" x="48" y="225" font-size="17" fill="#60a5fa" filter="url(#glow)">&lt; Distributed Systems Architect /&gt;</text>
-<text clip-path="url(#r4)" x="48" y="225" font-size="17" fill="#00e5ff" filter="url(#glow)">&lt; Clean Code &amp; Problem Solver /&gt;</text>
-<rect x="48" y="212" width="2.5" height="16" fill="#00e5ff" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
+<text clip-path="url(#r1)" x="48" y="225" font-size="17" fill="#e879f9" filter="url(#glow)">&lt; Full Stack Developer /&gt;</text>
+<text clip-path="url(#r2)" x="48" y="225" font-size="17" fill="#e879f9" filter="url(#glow)">&lt; AI / ML Engineer /&gt;</text>
+<text clip-path="url(#r3)" x="48" y="225" font-size="17" fill="#e879f9" filter="url(#glow)">&lt; Distributed Systems Architect /&gt;</text>
+<text clip-path="url(#r4)" x="48" y="225" font-size="17" fill="#e879f9" filter="url(#glow)">&lt; Clean Code &amp; Problem Solver /&gt;</text>
+<rect x="48" y="212" width="2.5" height="16" fill="#e879f9" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
 
 <!-- Quote box -->
 <g class="cl" style="animation:fadeIn .5s ease 3.2s forwards">
-  <rect x="48" y="246" width="410" height="72" rx="8" fill="#06121e" stroke="#1c3b57" stroke-width="1"/>
-  <rect x="48" y="250" width="3.5" height="64" rx="1.5" fill="#00e5ff"/>
+  <rect x="48" y="246" width="410" height="72" rx="8" fill="#1c1230" stroke="#3b2a5c" stroke-width="1"/>
+  <rect x="48" y="250" width="3.5" height="64" rx="1.5" fill="#ff7eb6"/>
 </g>
 <text clip-path="url(#q1)" x="76" y="276" font-size="15" fill="#e6edf3">Code is my weapon,</text>
-<text clip-path="url(#q2)" x="76" y="302" font-size="15"><tspan fill="#e6edf3">AI is my </tspan><tspan fill="#00e5ff" font-weight="bold">shadow</tspan><tspan fill="#e6edf3">.</tspan></text>
-<g class="tw" style="animation-delay:.9s"><path d="M430 272l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#00ffcc"/></g>
+<text clip-path="url(#q2)" x="76" y="302" font-size="15"><tspan fill="#e6edf3">AI is my </tspan><tspan fill="#ff7eb6" font-weight="bold">shadow</tspan><tspan fill="#e6edf3">.</tspan></text>
+<g class="tw" style="animation-delay:.9s"><path d="M430 272l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#f0abfc"/></g>
 
 <!-- Tech I Know -->
-<text class="ii" x="48" y="358" font-size="15" fill="#00ffcc" font-weight="bold" style="animation:fadeIn .4s ease 4.6s forwards">🧩 Tech I Know</text>
+<text class="ii" x="48" y="358" font-size="15" fill="#c084fc" font-weight="bold" style="animation:fadeIn .4s ease 4.6s forwards">🧩 Tech I Know</text>
 <g class="pill" style="animation:fadeIn .3s ease 4.8s forwards"><rect x="48" y="372" width="85" height="26" rx="13" fill="rgba(0,229,255,.10)" stroke="#00e5ff" stroke-width="1"/><text x="90.5" y="389" text-anchor="middle" font-size="12" fill="#00e5ff" font-weight="bold">Python</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 4.9s forwards"><rect x="141" y="372" width="105" height="26" rx="13" fill="rgba(247,223,30,.10)" stroke="#f7df1e" stroke-width="1"/><text x="193.5" y="389" text-anchor="middle" font-size="12" fill="#fde047" font-weight="bold">JavaScript</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5s forwards"><rect x="254" y="372" width="80" height="26" rx="13" fill="rgba(97,218,251,.10)" stroke="#61dafb" stroke-width="1"/><text x="294" y="389" text-anchor="middle" font-size="12" fill="#67e8f9" font-weight="bold">React</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.1s forwards"><rect x="342" y="372" width="90" height="26" rx="13" fill="rgba(74,222,128,.10)" stroke="#4ade80" stroke-width="1"/><text x="387" y="389" text-anchor="middle" font-size="12" fill="#4ade80" font-weight="bold">Node.js</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.2s forwards"><rect x="48" y="406" width="95" height="26" rx="13" fill="rgba(0,255,204,.10)" stroke="#00ffcc" stroke-width="1"/><text x="95.5" y="423" text-anchor="middle" font-size="12" fill="#00ffcc" font-weight="bold">MongoDB</text></g>
-<g class="pill" style="animation:fadeIn .3s ease 5.3s forwards"><rect x="151" y="406" width="60" height="26" rx="13" fill="rgba(96,165,250,.10)" stroke="#60a5fa" stroke-width="1"/><text x="181" y="423" text-anchor="middle" font-size="12" fill="#93c5fd" font-weight="bold">SQL</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.3s forwards"><rect x="151" y="406" width="60" height="26" rx="13" fill="rgba(139,92,246,.14)" stroke="#8b5cf6" stroke-width="1"/><text x="181" y="423" text-anchor="middle" font-size="12" fill="#c4b5fd" font-weight="bold">SQL</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="219" y="406" width="85" height="26" rx="13" fill="rgba(238,79,38,.10)" stroke="#ee4f26" stroke-width="1"/><text x="261.5" y="423" text-anchor="middle" font-size="12" fill="#ffa07a" font-weight="bold">PyTorch</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.5s forwards"><rect x="312" y="406" width="110" height="26" rx="13" fill="rgba(0,136,204,.10)" stroke="#0088cc" stroke-width="1"/><text x="367" y="423" text-anchor="middle" font-size="12" fill="#7dd3fc" font-weight="bold">AWS / Cloud</text></g>
 
 <!-- About Me -->
-<text class="ii" x="48" y="472" font-size="15" fill="#00e5ff" font-weight="bold" style="animation:fadeIn .4s ease 5.6s forwards">⚔️ About Me</text>
+<text class="ii" x="48" y="472" font-size="15" fill="#ff7eb6" font-weight="bold" style="animation:fadeIn .4s ease 5.6s forwards">⚔️ About Me</text>
 <text class="ii" x="48" y="498" font-size="13.5" style="animation:fadeIn .4s ease 5.8s forwards"><tspan fill="#4ade80">&gt;_ </tspan><tspan fill="#cdd3dd">Final-year CS Engineer (AI &amp; ML) at Aditya Eng. College.</tspan></text>
 <text class="ii" x="48" y="522" font-size="13.5" style="animation:fadeIn .4s ease 6s forwards"><tspan fill="#fde047">💡 </tspan><tspan fill="#cdd3dd">Building distributed microservices and AI-integrated backends.</tspan></text>
-<text class="ii" x="48" y="546" font-size="13.5" style="animation:fadeIn .4s ease 6.2s forwards"><tspan fill="#00ffcc">🚀 </tspan><tspan fill="#cdd3dd">Passionate about clean code, OOP, and distributed systems.</tspan></text>
+<text class="ii" x="48" y="546" font-size="13.5" style="animation:fadeIn .4s ease 6.2s forwards"><tspan fill="#e879f9">🚀 </tspan><tspan fill="#cdd3dd">Passionate about clean code, OOP, and distributed systems.</tspan></text>
 
 <!-- Stats card -->
 <g class="st" style="animation:fadeIn .5s ease 6.4s forwards">
-  <rect x="48" y="568" width="560" height="66" rx="12" fill="#06121e" stroke="#1c3b57" stroke-width="1"/>
+  <rect x="48" y="568" width="560" height="66" rx="12" fill="#1c1230" stroke="#3b2a5c" stroke-width="1"/>
   <line x1="188" y1="580" x2="188" y2="622" class="sep"/>
   <line x1="328" y1="580" x2="328" y2="622" class="sep"/>
   <line x1="468" y1="580" x2="468" y2="622" class="sep"/>
-  <text x="118" y="594" text-anchor="middle" font-size="11.5" fill="#8f9ca6">📦 Repos</text>
-  <text x="258" y="594" text-anchor="middle" font-size="11.5" fill="#8f9ca6">💻 Commits</text>
-  <text x="398" y="594" text-anchor="middle" font-size="11.5" fill="#8f9ca6">⭐ Stars</text>
-  <text x="538" y="594" text-anchor="middle" font-size="11.5" fill="#8f9ca6">👥 Followers</text>
+  <text x="118" y="594" text-anchor="middle" font-size="11.5" fill="#9aa4b2">📦 Repos</text>
+  <text x="258" y="594" text-anchor="middle" font-size="11.5" fill="#9aa4b2">💻 Commits</text>
+  <text x="398" y="594" text-anchor="middle" font-size="11.5" fill="#9aa4b2">⭐ Stars</text>
+  <text x="538" y="594" text-anchor="middle" font-size="11.5" fill="#9aa4b2">👥 Followers</text>
 </g>
-<text class="st" x="118" y="622" text-anchor="middle" font-size="18" font-weight="bold" fill="#00e5ff" filter="url(#glow)" style="animation:fadeIn .4s ease 6.6s forwards">15+</text>
-<text class="st" x="258" y="622" text-anchor="middle" font-size="18" font-weight="bold" fill="#00ffcc" filter="url(#glow)" style="animation:fadeIn .4s ease 6.75s forwards">1000+</text>
+<text class="st" x="118" y="622" text-anchor="middle" font-size="18" font-weight="bold" fill="#ff7eb6" filter="url(#glow)" style="animation:fadeIn .4s ease 6.6s forwards">15+</text>
+<text class="st" x="258" y="622" text-anchor="middle" font-size="18" font-weight="bold" fill="#e879f9" filter="url(#glow)" style="animation:fadeIn .4s ease 6.75s forwards">1000+</text>
 <text class="st" x="398" y="622" text-anchor="middle" font-size="18" font-weight="bold" fill="#fde047" filter="url(#glow)" style="animation:fadeIn .4s ease 6.9s forwards">30+</text>
-<text class="st" x="538" y="622" text-anchor="middle" font-size="18" font-weight="bold" fill="#60a5fa" filter="url(#glow)" style="animation:fadeIn .4s ease 7.05s forwards">10+</text>
+<text class="st" x="538" y="622" text-anchor="middle" font-size="18" font-weight="bold" fill="#c084fc" filter="url(#glow)" style="animation:fadeIn .4s ease 7.05s forwards">10+</text>
 
 <!-- ================= CENTER/RIGHT: FLOATING CODE WINDOW ================= -->
 <g class="fl2" style="animation-delay:0.5s">
-  <rect x="580" y="80" width="370" height="260" rx="10" fill="#050f16" stroke="#1c3b57" stroke-width="1.5" filter="url(#glow)"/>
-  <line x1="580" y1="110" x2="950" y2="110" stroke="#1c3b57" stroke-width="1"/>
+  <rect x="580" y="80" width="370" height="260" rx="10" fill="#120b20" stroke="#3b2a5c" stroke-width="1.5" filter="url(#glow)"/>
+  <line x1="580" y1="110" x2="950" y2="110" stroke="#3b2a5c" stroke-width="1"/>
   <!-- Window buttons -->
   <circle cx="600" cy="95" r="5" fill="#ff5f56"/>
   <circle cx="615" cy="95" r="5" fill="#ffbd2e"/>
@@ -172,12 +162,12 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
     <tspan fill="#ff7eb6">  return </tspan><tspan>(</tspan>
   </text>
   <text x="595" y="170" font-size="11.5" fill="#ffffff">
-    <tspan fill="#60a5fa">    &lt;div </tspan><tspan fill="#fde047">className</tspan><tspan>=</tspan><tspan fill="#00ffcc">"system"</tspan><tspan fill="#60a5fa">&gt;</tspan>
+    <tspan fill="#60a5fa">    &lt;div </tspan><tspan fill="#fde047">className</tspan><tspan>=</tspan><tspan fill="#ff7eb6">"system"</tspan><tspan fill="#60a5fa">&gt;</tspan>
   </text>
-  <text x="595" y="190" font-size="11.5" fill="#00ffcc">      &lt;Code /&gt;</text>
-  <text x="595" y="210" font-size="11.5" fill="#00ffcc">      &lt;Model /&gt;</text>
-  <text x="595" y="230" font-size="11.5" fill="#00ffcc">      &lt;Optimize /&gt;</text>
-  <text x="595" y="250" font-size="11.5" fill="#00ffcc">      &lt;Deploy /&gt;</text>
+  <text x="595" y="190" font-size="11.5" fill="#e879f9">      &lt;Code /&gt;</text>
+  <text x="595" y="210" font-size="11.5" fill="#e879f9">      &lt;Model /&gt;</text>
+  <text x="595" y="230" font-size="11.5" fill="#e879f9">      &lt;Optimize /&gt;</text>
+  <text x="595" y="250" font-size="11.5" fill="#e879f9">      &lt;Deploy /&gt;</text>
   <text x="595" y="270" font-size="11.5" fill="#ffffff">
     <tspan fill="#60a5fa">    &lt;/div&gt;</tspan>
   </text>
@@ -187,11 +177,11 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- ================= RIGHT: KEEP CODING CARD ================= -->
 <g class="fl" style="animation-delay:1.2s">
-  <rect x="980" y="80" width="230" height="150" rx="12" fill="#050f16" stroke="#1c3b57" stroke-width="1.5" filter="url(#glow)"/>
-  <rect x="984" y="84" width="222" height="142" rx="8" fill="none" stroke="rgba(0, 229, 255, 0.1)" stroke-width="1"/>
-  <text x="1095" y="125" font-size="28" fill="#00e5ff" font-weight="bold" text-anchor="middle" filter="url(#glow)">&lt;/&gt;</text>
-  <text x="1095" y="165" font-size="14" fill="#00e5ff" font-weight="bold" text-anchor="middle" letter-spacing="1">KEEP CODING</text>
-  <text x="1095" y="195" font-size="14" fill="#00ffcc" font-weight="bold" text-anchor="middle" letter-spacing="1">KEEP GROWING</text>
+  <rect x="980" y="80" width="230" height="150" rx="12" fill="#1c1230" stroke="#3b2a5c" stroke-width="1.5" filter="url(#glow)"/>
+  <rect x="984" y="84" width="222" height="142" rx="8" fill="none" stroke="rgba(255, 126, 182, 0.1)" stroke-width="1"/>
+  <text x="1095" y="125" font-size="28" fill="#ff7eb6" font-weight="bold" text-anchor="middle" filter="url(#glow)">&lt;/&gt;</text>
+  <text x="1095" y="165" font-size="14" fill="#ff7eb6" font-weight="bold" text-anchor="middle" letter-spacing="1">KEEP CODING</text>
+  <text x="1095" y="195" font-size="14" fill="#c084fc" font-weight="bold" text-anchor="middle" letter-spacing="1">KEEP GROWING</text>
 </g>
 
 <!-- ================= RIGHT: ILLUSTRATION (Cartoon Man sitting in chair) ================= -->
@@ -214,7 +204,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <text x="862" y="700" font-size="13" fill="#4ade80">open to collaborate</text>
   
   <!-- Bottom Quote -->
-  <text x="1232" y="700" font-size="13" fill="#00ffcc" text-anchor="end">"Level up one commit at a time." ⚔️</text>
+  <text x="1232" y="700" font-size="13" fill="#ff7eb6" text-anchor="end">"Level up one commit at a time." ⚔️</text>
 </g>
 
 </svg>
