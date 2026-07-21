@@ -120,7 +120,7 @@ Status: Active & Open to Collaborate ⚔️
 ### 🐍 Contribution Arena
 
 <!-- Snake contribution graph -->
-<img src="https://raw.githubusercontent.com/Vishnujaisri123/Vishnujaisri123/output/github-snake-pink.svg" alt="Contribution snake"/>
+<img src="https://raw.githubusercontent.com/Vishnujaisri123/Vishnujaisri123/output/github-snake-solo-leveling.svg" alt="Contribution snake"/>
 
 </div>
 
