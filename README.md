@@ -51,14 +51,48 @@ Status: Active & Open to Collaborate ⚔️
 
 ### 🛡️ Skill Arsenal
 
-<div align="center">
+<div align="left">
 
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white"/> |
-| **Frameworks / Libraries** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=node.js&amp;logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&amp;logo=express&amp;logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&amp;logo=scikit-learn&amp;logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-black?style=flat-square&amp;logo=three.js&amp;logoColor=white"/> |
-| **Databases / Caches** | <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&amp;logo=mongodb&amp;logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white"/> |
-| **DevOps / Cloud / Tools** | <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&amp;logo=amazon-aws&amp;logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=github-actions&amp;logoColor=white"/> |
+#### 🔮 `[ACTIVE SKILL]` Shadow Summoning (AI/ML &amp; Backend)
+> *Summons intelligent agent structures and distributed pipelines to orchestrate complex data flows.*
+* 💧 **Mana Cost**: `150 MP`
+* ⚡ **Proficiency**: `MAX (S-Rank)`
+* 🎒 **Arsenal**:
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&amp;logo=scikit-learn&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=node.js&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&amp;logo=express&amp;logoColor=white"/>
+
+<br/>
+
+#### 🌐 `[ACTIVE SKILL]` Monarch's Domain (Frontend &amp; Interactive Web)
+> *Manipulates the user dimension, crafting high-performance responsive interfaces and 3D spatial environments.*
+* 💧 **Mana Cost**: `90 MP`
+* ⚡ **Proficiency**: `S-Rank`
+* 🎒 **Arsenal**:
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black"/>
+  <img src="https://img.shields.io/badge/Three.js-black?style=flat-square&amp;logo=three.js&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white"/>
+
+<br/>
+
+#### 🌀 `[PASSIVE SKILL]` Ruler's Authority (DevOps &amp; Databases)
+> *Manipulates underlying database streams and threads of deployment to coordinate scalable architectures.*
+* 💧 **Mana Cost**: `Passive (0 MP)`
+* ⚡ **Proficiency**: `S-Rank`
+* 🎒 **Arsenal**:
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&amp;logo=amazon-aws&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=github-actions&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&amp;logo=mongodb&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white"/>
 
 </div>
 
